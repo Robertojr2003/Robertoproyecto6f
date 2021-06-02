@@ -1,0 +1,21 @@
+*{ margin: 0px; padding: 0px; } body{ background:ligthblue; font-family: Arial,
+Helvetica, sans-serif; } #container{ /*width: 70%;*/ width: 1100px; margin: 0px
+auto; border: 1px solid black; } header{ background: red; height: 100px; width:
+100%; margin: 0px; text-align: center; line-height: 100px; color: white; border-bottom:
+3px dashed black; } nav{ background: black; height: 50px; line-height: 30px; border-bottom:
+1px solid black; } nav ul li { float: left; list-style: none; margin: 10px; } .clearfix{
+clear:both; } #content{ float:left; width:calc( 80% - 80px); min-height: 500px;
+background: green; padding: 40px; } .article{ color: white; margin-top: 20px; margin-bottom:
+20px; padding-bottom: 10px; border-bottom: 1px solid #eee; } .article:first-child{
+padding-top: 10px; border-top: 1px solid #eee; } .article h2{ font-size: 25px;
+} aside{ float: left; width: calc(20% - 20px); min-height: 500px; background: orange;
+padding-left: 10px; padding-right: 10px; padding-top: 20px; } footer{ background:
+black; color: white; text-align: center; height: 50px; line-height: 50px; }
+<!--
+Visual Code Mobile
+Developed By Manish Nirmal
+App Available on Play Store :-
+https://play.google.com/store/apps/details?id=lk.visual.code.mobile
+YouTube :-
+https://youtube.com/ManishNirmal
+-->
