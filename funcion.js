@@ -40,23 +40,17 @@ número en pantalla coma=0; //reiniciar estado coma decimal ni=0 //indicador de
 número oculto a 0; op="no" //borrar operación en curso. } function teclado (elEvento)
 { evento = elEvento || window.event; k=evento.keyCode; //número de código de la
 tecla. //teclas númericas del teclado alfamunérico if (k>47 && k
-<58) { p=k-48; //buscar número a mostrar. p=String(p) //convertir a cadena para
-poder añádir en pantalla. numero(p); //enviar para mostrar en pantalla } //Teclas
-del teclado númerico. Seguimos el mismo procedimiento que en el anterior. if (k>95 && k
-  <106) { p=k-96;p=String(p); numero(p); } if (k==110 || k==190) {numero( ".")} //teclas
-  de coma decimal if (k==106) {operar( '*')} //tecla multiplicación if (k==107)
-  {operar( '+')} //tecla suma if (k==109) {operar( '-')} //tecla resta if (k==111)
-  {operar( '/')} //tecla división if (k==32 || k==13) {igualar()} //Tecla igual:
-  intro o barra espaciadora if (k==46) {borradoTotal()} //Tecla borrado total:
-  "supr" if (k==8) {retro()} //Retroceso en escritura : tecla retroceso. if (k==36)
-  {borradoParcial()} //Tecla borrado parcial: tecla de inicio. } } <!-- Visual
-  Code Mobile Developed By Manish Nirmal App Available on Play Store :- https://play.google.com/store/apps/details?id=lk.visual.code.mobile
-  YouTube :- https://youtube.com/ManishNirmal -->
-    <!--
-Visual Code Mobile
-Developed By Manish Nirmal
-App Available on Play Store :-
-https://play.google.com/store/apps/details?id=lk.visual.code.mobile
-YouTube :-
-https://youtube.com/ManishNirmal
--->
+<58) { p=k-48;
+//buscar número a mostrar. p=String(p) //convertir a cadena para poder añádir en
+pantalla. numero(p); //enviar para mostrar en pantalla } //Teclas del teclado númerico.
+Seguimos el mismo procedimiento que en el anterior. if (k>95 && k
+  <106) { p=k-96;p=String(p); numero(p); } if (k==110 || k==190) {numero(
+  ".")} //teclas de coma decimal if (k==106) {operar( '*')} //tecla multiplicación
+  if (k==107) {operar( '+')} //tecla suma if (k==109) {operar( '-')} //tecla resta
+  if (k==111) {operar( '/')} //tecla división if (k==32 || k==13) {igualar()} //Tecla
+  igual: intro o barra espaciadora if (k==46) {borradoTotal()} //Tecla borrado
+  total: "supr" if (k==8) {retro()} //Retroceso en escritura : tecla retroceso.
+  if (k==36) {borradoParcial()} //Tecla borrado parcial: tecla de inicio. } } <!--
+  Visual Code Mobile Developed By Manish Nirmal App Available on Play Store :-
+  https://play.google.com/store/apps/details?id=lk.visual.code.mobile YouTube :-
+  https://youtube.com/ManishNirmal -->
